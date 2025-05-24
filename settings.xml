@@ -1,0 +1,12 @@
+<settings>
+
+<servers>
+  <server>
+    <id>project1-project1-devops-cicd</id>
+    <username>aws</username>
+    <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
+  </server>
+</servers>
+
+
+</settings>
